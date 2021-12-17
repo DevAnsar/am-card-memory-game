@@ -1,7 +1,26 @@
 {
-  "name": "card-memory-game",
-  "version": "0.1.0",
+  "name": "am-card-memory-game",
+  "version": "1.0.0",
+  "description": "Card memory game for react",
+  "author": "DevAnsar",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "game",
+    "card-memory"
+  ],
   "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAnsar/am-card-memory-game.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
