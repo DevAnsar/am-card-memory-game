@@ -101,12 +101,22 @@ class Game extends React.Component {
 
       <section className="memory-game">
         {
-          this.state.cards.map(card=><Card card={card} onClick={()=>this.state.cancanged ? this.handleClick(card.id) : {} } />)
+          this.state.cards.map((card,index)=><Card key={index} card={card} onClick={()=>this.state.cancanged ? this.handleClick(card.id) : {} } />)
         }
         
       </section>
     );
   }
+
+//   render(){
+//     return (
+
+//       <section className="memory-game">
+// Ansaramman
+        
+//       </section>
+//     );
+//   }
 }
 
 export default Game;
