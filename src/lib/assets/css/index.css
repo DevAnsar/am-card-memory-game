@@ -7,8 +7,7 @@
 #root {
   height: 100vh;
   display: flex;
-  background: #8b0095;
-
+  background: #232323;
 }
 
 .memory-game {
@@ -48,7 +47,7 @@
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #021263cf;
+  background: #00000042;
   backface-visibility: hidden;
 }
 

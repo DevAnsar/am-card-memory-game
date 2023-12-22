@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent, act } from "@testing-library/react";
-import {Game} from "../lib";
+import { Game } from "../lib";
 
 test("sample test", () => {
   jest.useFakeTimers();
